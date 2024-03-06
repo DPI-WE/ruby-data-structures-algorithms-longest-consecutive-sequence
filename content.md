@@ -81,8 +81,7 @@ end
 - **Efficiency**: Remember, the goal is to keep your solution within O(n) time complexity. This means efficiently using the set to avoid unnecessary iterations.
 
 ## Quiz
-What advantage does using a Set provide in solving this problem?
-
+- What advantage does using a Set provide in solving this problem?
 - It allows for quick determination of whether a specific element exists
   - Correct! Sets provide constant time complexity (O(1)) for lookups, which is crucial for maintaining overall O(n) time complexity.
 - It helps in sorting the array
