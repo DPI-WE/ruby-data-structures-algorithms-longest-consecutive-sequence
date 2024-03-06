@@ -24,7 +24,7 @@ Before diving into the main problem, let's explore a simpler scenario to get fam
 Keep this exploration in mind as you approach the coding challenge. Ensure your solution can handle various arrays effectively and efficiently.
 
 ## Think Aloud
-In coding interviews, demonstrating your problem-solving process is crucial. Discuss your approach, considering the efficiency and why you choose a particular data structure (in this case, a set). Start with a simple, perhaps brute-force approach, and then refine it to meet the time complexity requirement.
+In coding interviews, demonstrating your problem-solving process is crucial. Discuss your approach, considering the efficiency and why you choose a particular data structure. Start with a simple, perhaps brute-force approach, and then refine it to meet the time complexity requirement.
 
 ## Test your code
 
