@@ -3,7 +3,7 @@
 ## The Problem
 Write a program that:
 - takes an unsorted array of integers
-- returns the length of the longest consecutive elements sequence
+- returns the length of the longest consecutive elements sequence regardless of order
 
 Your algorithm must run in O(n) time, making efficient use of data structures to achieve this performance.
 
