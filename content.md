@@ -74,6 +74,20 @@ end
 ```
 {: .repl-test #longest_consecutive_sequence_test_3 for="longest_consecutive_sequence" title="Longest Consecutive Sequence finds the sequence in array [10, 5, 12, 3]" points="1"}
 
+```ruby
+describe "Longest Consecutive Sequence" do
+  it "handles a large array efficiently, suggesting O(n) time complexity" do
+    large_array = (1..100000).to_a.shuffle
+    start_time = Time.now
+    result = longest_consecutive(large_array)
+    end_time = Time.now
+    expect(result).to eq(100000) # The sequence is the entire array
+    expect(end_time - start_time).to be < 1 # Expect the test to run in under 1 second as an indication of O(n) complexity
+  end
+end
+```
+{: .repl-test #longest_consecutive_sequence_test_4 for="longest_consecutive_sequence" title="Longest Consecutive Sequence handles a large array efficiently, suggesting O(n) time complexity" points="1"}
+
 ## Tips and Clues for Solving the Problem
 - **Set**: Using a [Set](https://ruby-doc.org/stdlib-2.5.3/libdoc/set/rdoc/Set.html) is key to achieving the O(n) time complexity. Start by converting the array to a Set for quick access.
 - **Finding Sequences**: Iterate through the array, and for each element, check if it is the start of a sequence (i.e., there is no element in the set that is one less than the current element). If it is, then count how many consecutive numbers can be found starting with this number, updating the longest sequence length as necessary.
