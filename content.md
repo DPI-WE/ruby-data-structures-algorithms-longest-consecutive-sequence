@@ -68,7 +68,7 @@ end
 describe "Longest Consecutive Sequence" do
   it "finds the longest consecutive sequence in the array [10, 5, 12, 3]" do
     result = longest_consecutive([10, 5, 12, 3])
-    expect(result).to eq(2) # Possible sequences include 10, 12 or 5, 3
+    expect(result).to eq(1) # None of the elements in the input array are consecutive
   end
 end
 ```
