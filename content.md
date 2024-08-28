@@ -1,5 +1,7 @@
 # Longest Consecutive Sequence 🍡
 
+### [Here is a video for this lesson](https://www.youtube.com/watch?v=y6z69mNbW28)
+
 ## The Problem
 Write a program that:
 - takes an unsorted array of integers
